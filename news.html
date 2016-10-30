@@ -1,8 +1,20 @@
 ---
-layout: default
+layout: news
 ---
 
-<h1>News</h1>
+<h1>Planetary News</h1>
 <p>
 	Latest news and updates on the planets
 </p>
+
+<hr>
+
+<ul>
+	{% for news in site.categories.news %}
+		<li>
+			<a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+			<p>{{news.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>
+

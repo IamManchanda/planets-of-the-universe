@@ -1,2 +1,5 @@
 # Ignore jekyll build files
 _site
+
+# Ignore reference code files 
+# jekyll-code

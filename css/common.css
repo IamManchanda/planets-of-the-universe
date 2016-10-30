@@ -1,0 +1,80 @@
+html {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.4 Georgia,serif; 
+}
+
+body {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+
+header {
+	margin-bottom: 15px;
+}
+
+.masthead {
+  padding: 1em;
+
+  background: #000531 url("../img/nebula.jpg") no-repeat center center;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.masthead-planets {
+  background-image: url("../img/nebula-2.jpg");
+}
+
+.masthead h1, .masthead nav {
+	display: inline-block;
+}
+
+.masthead nav {
+	float: right;
+	margin-top: 25px;
+}
+
+.current {
+	color: #ff0000;
+}
+
+.nav, .planet-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.planet-list h3 {
+	margin-bottom: 0;
+}
+
+.planet-list p {
+	margin-top: 3px;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.nav-top > li a {
+	color: #fff;
+}
+
+.nav-top > li a.current {
+	color: #0f0;
+}
+
+.nav-bottom > li a {
+	color: #000;
+}
+
+.nav-bottom > li a.current {
+	color: #00f;
+}
+
+
+.nav-top {
+	font-size: 1.25rem;
+}
