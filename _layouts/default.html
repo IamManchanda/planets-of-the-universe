@@ -8,15 +8,16 @@
 
 <header>
 	<h1>Planets of the Universe</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-	</nav>
+	{% include nav.html %}
 </header>
 
 {{content}}
+
+<header>
+	{% include nav.html %}
+	<p>&copy; 2016 Planets of the Universe</p>
+</header>
+
 
 </body>
 </html>
