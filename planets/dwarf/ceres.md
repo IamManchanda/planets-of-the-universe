@@ -10,6 +10,7 @@ radius: 487 km
 tilt: 3°
 image: ceres.jpg
 source: http://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
+mastheadClass: masthead-planets
 ---
 
 *Ceres* is the largest asteroid and the only dwarf planet in the inner Solar System.
